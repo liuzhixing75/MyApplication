@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.administrator.myapplication.activity.MainActivity">
+
+    <TextView
+        android:text="Hello World!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击我"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:background="@drawable/button_selector"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="listView演示"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:background="@drawable/button_selector"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择图片演示"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:background="@drawable/button_selector"
+        />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="底部导航演示"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:background="@drawable/button_selector"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="数字进度条演示"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:background="@drawable/button_selector"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下拉刷新演示"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:background="@drawable/button_selector"
+        />
+
+</LinearLayout>
